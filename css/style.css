@@ -388,6 +388,7 @@ main .rightside .d15 .d17 img{
 width: 165.17px;
 height: 102.5px;
 padding: 7px 7px;
+flex: 1;
 }
 main .rightside .d18 .d20{
 box-sizing:border-box;
@@ -477,18 +478,21 @@ padding-top: 30px;
 footer p a{
 color: white;
 }
+
 @media screen and (max-width: 800px)
 {
+
 main .leftside,main .rightside{
 width: 100%;
 float:none;
+
 }
 main .leftside  .d3{
 margin: 20px 32px;
 }
-main .rightside .d15 .d17 img {
+/*main .rightside .d15 .d17 img {
 width: 179px;
-}
+}*/
 footer{
 text-align: center;
 }
@@ -505,18 +509,18 @@ width :auto!important;
 }
 }
 
-@media screen and ( width:411px){
+@media screen and (width:411px){
+  
     main{
     height: auto;
     background-color: #F1F1F1;
     padding: 30px 32px;
     position: inherit;
-
     }
-    main .rightside .d15 .d17 img {
+    /*main .rightside .d15 .d17 img {
     width: 160px;
     height: 100px;
-}
+}*/
     main .rightside .d9 .d11 .d12 span {
         left: 110px;
         top: 90px;
