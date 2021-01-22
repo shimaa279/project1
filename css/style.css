@@ -504,6 +504,23 @@ padding-top:50px!important;
 width :auto!important;
 }
 }
+
+@media screen and (max-width: 411px){
+    main{
+    height: auto;
+    background-color: #F1F1F1;
+    padding: 30px 32px;
+    position: inherit;
+
+    }
+    main .rightside .d15 .d17 img {
+    width: 160px;
+    height: 100px;
+}
+    main .rightside .d9 .d11 .d12 span {
+        left: 110px;}
+            
+    }
 /***************************js************/
 .popup{
 background-color :rgba(0, 0, 0, 0.4);
