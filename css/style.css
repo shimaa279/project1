@@ -505,7 +505,7 @@ width :auto!important;
 }
 }
 
-@media screen and (max-width: 411px){
+@media screen and (width:411px){
     main{
     height: auto;
     background-color: #F1F1F1;
