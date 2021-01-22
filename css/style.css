@@ -477,7 +477,7 @@ padding-top: 30px;
 footer p a{
 color: white;
 }
-@media screen and (max-width: 800px)and (min-width:411px)
+@media screen and (max-width: 800px)
 {
 main .leftside,main .rightside{
 width: 100%;
