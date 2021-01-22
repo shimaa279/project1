@@ -477,7 +477,7 @@ padding-top: 30px;
 footer p a{
 color: white;
 }
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 800px)and (min-width:411px)
 {
 main .leftside,main .rightside{
 width: 100%;
@@ -505,7 +505,7 @@ width :auto!important;
 }
 }
 
-@media screen and (width:411px){
+@media screen and ( max-width:411px){
     main{
     height: auto;
     background-color: #F1F1F1;
@@ -518,9 +518,28 @@ width :auto!important;
     height: 100px;
 }
     main .rightside .d9 .d11 .d12 span {
-        left: 110px;}
-            
+        left: 110px;
+        top: 90px;
     }
+    
+    main .leftside,main .rightside{
+    width: 100%;
+    float:none;
+    }
+    main .leftside  .d3{
+    margin: 20px 32px;
+    }
+    footer{
+    text-align: center;
+    }
+    .popup .d{
+    height:280.909px!important;
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+    padding-top:50px!important;
+    width :auto!important;
+    }
+}
 /***************************js************/
 .popup{
 background-color :rgba(0, 0, 0, 0.4);
