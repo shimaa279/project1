@@ -508,8 +508,7 @@ padding-top:50px!important;
 width :auto!important;
 }
 }
-
-@media screen and (width:370px){
+@media screen and ( width:360px){
   
     main{
     height: auto;
@@ -518,8 +517,8 @@ width :auto!important;
     position: inherit;
     }
     main .rightside .d15 .d17 img {
-    width: 160px;
-    height: 100px;
+    width: 128px!important;
+    height: 102.5px!important;
 }
     main .rightside .d9 .d11 .d12 span {
         left: 110px;
@@ -544,6 +543,7 @@ width :auto!important;
     width :auto!important;
     }
 }
+
 /***************************js************/
 .popup{
 background-color :rgba(0, 0, 0, 0.4);
