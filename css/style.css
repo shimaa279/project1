@@ -468,6 +468,10 @@ border-style: none;
 font-family:"Open Sans";
 font-size:15px;
 }
+footer button a{
+    color: white!important;
+    text-decoration: none;
+}
 footer button:hover{
 background-color: #ccc;
 color: black;
